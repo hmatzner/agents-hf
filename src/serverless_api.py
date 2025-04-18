@@ -12,3 +12,4 @@ output = client.chat.completions.create(
     max_tokens=1024,
 )
 print(output.choices[0].message.content)
+
