@@ -13,4 +13,3 @@ output = client.chat.completions.create(
 )
 print(output.choices[0].message.content)
 
-
