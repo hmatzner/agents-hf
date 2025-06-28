@@ -9,8 +9,8 @@ output = client.chat.completions.create(
     messages=[
         {"role": "user", "content": "The capital of Argentina is"},
     ],
-    stream=False,
-    max_tokens=1024, 
+    stream=False, 
+    max_tokens=1024,
 )
 print(output.choices[0].message.content)
 
