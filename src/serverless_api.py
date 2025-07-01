@@ -7,7 +7,7 @@ client = InferenceClient("meta-llama/Llama-3.2-3B-Instruct")
 output = client.chat.completions.create(
 
     messages=[
-        {"role": "user", "content": "The capital of Germany is"},
+        {"role": "user", "content": "The capital of Morocco is"},
     ],
     stream=False,
     max_tokens=1024,
